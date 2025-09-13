@@ -1,0 +1,16 @@
+[package]
+name = "Token-Linked-Health-Tracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x04f34fc32060a02537c8bbf72cd014e0a1ba5d4a39f0ea785b8eb61160933536"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
